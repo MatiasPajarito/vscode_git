@@ -31,7 +31,7 @@ a:hover{
     background: rgb(44, 44,44);
 }
 body{
-    background-image: url(cropped-1920-1080-29457.jpg);
+    background-image: url(cropped-1920-1080-7181.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -61,4 +61,46 @@ body{
     text-align: center;
     border-radius: 1rem;
     margin: 2rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+.pie-pagina{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    padding: 15px;
+}
+.pie-pagina .grupo-1 h1{
+    margin-bottom: 5px;
+}
+.pie-pagina .grupo-1 p{
+    margin-bottom: 5px;
+}
+.pie-pagina .grupo-1 h2{
+    margin-bottom: 5px;
+}
+.pie-pagina .grupo-2{
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.pie-pagina .boxes{
+    margin-bottom: 5px;
+}
+.pie-pagina .cajas{
+    margin: 5px;
+}
+.pie-pagina .boxes p{
+    font-size: 10px;
 }
