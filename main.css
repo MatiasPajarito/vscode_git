@@ -1,0 +1,33 @@
+body{
+    display:grid;
+    place-items:center;
+    height: 100vh;
+
+
+ }
+
+
+.container{
+    transform: rotateY(180deg);
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+label:not(:last-child) {
+    margin-right: 3px;
+}
+
+input:checked ~ label,
+input:hover ~ label{
+    color: #ff7a00;
+}
+
